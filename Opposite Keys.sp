@@ -19,7 +19,7 @@ public Plugin myinfo = {
 
 public void OnPluginStart()
 {
-	OppoKeys =	CreateConVar("sm_oppo_keys", "1", "Opposite keys?");
+	OppoKeys =	CreateConVar("sm_oppo_keys", "0", "Opposite keys?");
 }
 
 public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3], float angles[3], int &weapon) 
